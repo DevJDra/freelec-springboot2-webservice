@@ -8,7 +8,7 @@ var main = {
            _this.update();
         });
         $('#btn-delete').on('click', function() {
-            _this.delete();
+            _this.delete2();
         });
     },
     save : function() {
@@ -50,7 +50,7 @@ var main = {
             alert(JSON.stringify(error));
         });
     },
-    delete : function () {
+    delete2 : function () {
         var id = $('#id').val();
 
         $.ajax({
